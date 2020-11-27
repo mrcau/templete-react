@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css';
+import {firestore} from './firebase';
 
 function App() {
   return (
