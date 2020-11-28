@@ -1,11 +1,11 @@
 import React from 'react'
-import './App.css';
+import style from './App.module.css';
 import Login from './components/login/Login';
 import {firestore} from './service/firebase';
 
 function App() {
   return (
-    <div className="App">
+    <div className={style.App}>
       <Login/>
     </div>
   );
